@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --body: #eaeaea; 
+    --font: #0c005a;
+    --section: #bc2525;
+    --elements: #ff0000;
+}
+
+body{
+    background-color: var(--body);
+}
+
+span{
+    background: var(--font);
+    width: 22px;
+    height: 22px;
+    display: block;
+    border-radius: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.2s;
+    z-index: 10;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border-radius: 36px;
+    background-color: var(--section);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
